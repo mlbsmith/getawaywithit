@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    /* background-color: #000050; */
+    background-color: #5f5f5f;
+    color: #fff;
+}
+
+h2 {
+    padding-top: 50px;
+    font-size: 2.25em;
+    text-align: center;
+}
+
+h3 {
+    padding-bottom: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bw-sunrise {
+    background-image: url(../img/bw-sunrise.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner {
+    background-image: url(../img/forest-scene.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.filler {
+    height: 300px;
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    padding-top: 300px;
+    font-size: 2em;
+    color: #000050;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.sub-header {
+    text-align: center;
+}
+
+.tiles {
+    display: flex;
+}
+
+.tile {
+    width: 33%;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    background-size: cover;
+}
+
+.pain {
+    background-image: url(../img/pain.jpg);
+}
+
+.anger {
+    background-image: url(../img/anger.jpg);
+}
+
+.loneliness {
+    background-image: url(../img/lonely.jpg);
+}
+
+.get-help-img {
+    background-image: url(../img/get-help.jpg);
+}
+
+.get-help {
+    height: 400px;
+    width: auto;
+}
+
+.side-by-side {
+    display: inline-flex;
+}
+
+.sunrise {
+    background-image: url(../img/sunrise.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.quote {
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.video {
+    width: 500px;
+    height: auto;
+}
+
+/***** helpers *****/
+
+.hr-light {
+    border-bottom: #fff 1px solid;
+}
+
+.mt-5 {
+    margin-top: 5px
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+pl-5 {
+    padding-left: 5px;
+}
+
+pr-5 {
+    padding-right: 5px;
+}
